@@ -1,0 +1,23 @@
+{
+  "canisters": {
+    "civitas_backend": {
+      "type": "motoko",
+      "main": "src/civitas_backend/main.mo"
+    },
+    "civitas_frontend": {
+      "type": "assets",
+      "source": [
+        "src/civitas_frontend/assets",
+        "dist/civitas_frontend/"
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+} 
